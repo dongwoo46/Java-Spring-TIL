@@ -1,4 +1,4 @@
-package Abstract;
+package Abstract.Abstract4;
 
 // 1. 굳이 객체 생성할 필요가 없음
 // 2. 추상 메서드를 갖는 클래스

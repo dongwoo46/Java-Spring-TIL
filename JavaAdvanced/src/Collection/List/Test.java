@@ -1,15 +1,15 @@
 package Collection.List;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class Test {
     public static void main(String[] args) {
         // List
         // - 순서가 있는 자료구조
         // - 중복 허용
-        List<String> names = new ArrayList<>();
+//        List<String> names = new ArrayList<>();
+//        List<String> names = new LinkedList<>();
+        List<String> names = new Vector<>();
 
         // 원소 추가
         names.add("안중근");
