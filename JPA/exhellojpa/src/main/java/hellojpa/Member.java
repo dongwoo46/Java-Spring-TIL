@@ -9,29 +9,43 @@ import java.time.LocalDateTime;
 import java.util.Date;
 @Entity
 public class Member {
-    @Id
+    @Id @GeneratedValue
+    @Column(name = "MEMBER_ID")
     private Long id;
 
-    @Column(name = "name")
+    @Column(name = "USERNAME")
     private String username;
 
-    private Integer age;
+    @ManyToOne
+    @JoinColumn(name = "TEAM_ID")
+    private Team team;
 
-    @Enumerated(EnumType.STRING)
-    private RoleType roleType;
+    public Long getId() {
+        return id;
+    }
 
-    @Temporal(TemporalType.TIMESTAMP)
-    private Date createdDate;
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-    private LocalDate testLocalDate;
-    private LocalDateTime testLocalDateTime;
+    public String getUsername() {
+        return username;
+    }
 
-    @Temporal(TemporalType.TIMESTAMP)
-    private Date lastModifiedDate;
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
-    @Lob //varchar를 넘엇는 큰값
-    private String description;
+    public Team getTeam() {
+        return team;
+    }
 
-    public Member() {
+//    public void setTeam(Team team) {
+//        this.team = team;
+//    }
+
+    public void changeTeam(Team team) {
+        this.team = team;
+        team.getMembers().add(this);
     }
 }
