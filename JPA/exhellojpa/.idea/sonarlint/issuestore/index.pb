@@ -1,8 +1,30 @@
 
+R
+"src/main/java/hellojpa/Parent.java,4\4\44edf2283231ef941ed7d9f231ed01b376d49e57
+Q
+!src/main/java/hellojpa/Movie.java,5\d\5d01fa8f7a9d9e79f69c3c4484557bbb877c2f6f
 T
 $src/main/java/hellojpa/RoleType.java,e\1\e151b821dadfe54a14fa67f5f3fe359bdad10ecc
+Q
+!src/main/java/hellojpa/Child.java,4\8\48d6c9fed6f1a2e54a6a3560ffb4d0f8d7b9aa18
+P
+ src/main/java/hellojpa/Item.java,9\7\978a85b417eb31c6aef1282acb782910acfded2c
+Y
+)src/main/java/hellojpa/MemberProduct.java,4\4\44c1b4a465ff3c033de64e5c746bd23b1c60bd17
+S
+#src/main/java/hellojpa/Product.java,7\1\717b091188e01e3e76c32796a05a5f0b7e165ec4
+P
+ src/main/java/hellojpa/Book.java,4\0\40e311ccbf52f9df9ec4629134747136c70691af
+V
+&src/main/java/hellojpa/BaseEntity.java,4\1\41dcd6411ea17d5fdb1caaec18e1b93eafa53cdb
 P
  src/main/java/hellojpa/Team.java,b\f\bfbac6fbffe19ced8136bfd2d23bf11518635622
+R
+"src/main/java/hellojpa/Period.java,a\0\a0b3136a164e8bbec40efc2281f122de4175ab86
+Q
+!src/main/java/hellojpa/Album.java,d\5\d51633f288f6c9e54960bf8cc2765c46f749ce95
+S
+#src/main/java/hellojpa/Address.java,e\d\ed0ba483127da0c1ee616e1633db429d81762845
 R
 "src/main/java/hellojpa/Member.java,f\d\fd68fd8c0388b07c61445afa503c8ec018eab4c0
 S
