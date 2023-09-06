@@ -28,8 +28,10 @@ public class MemberRepositoryTest {
 
     @Autowired
     MemberRepository memberRepository;
+
     @Autowired
     TeamRepository teamRepository;
+
     @PersistenceContext
     EntityManager em;
 
@@ -44,6 +46,7 @@ public class MemberRepositoryTest {
         ;
         Assertions.assertThat(findMember).isEqualTo(member); //JPA 엔티티 동일성 보장
     }
+
     @Test
     public void basicCRUD() {
         Member member1 = new Member("member1");
