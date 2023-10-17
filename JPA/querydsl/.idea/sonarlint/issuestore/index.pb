@@ -1,13 +1,8 @@
 
-l
-<querydsl/src/test/java/study/querydsl/QuerydslBasicTest.java,b\1\b14829a235b8d390a91d78e63dc0596492f61bd3
-]
--src/main/java/study/querydsl/dto/UserDto.java,0\5\0504a9d3e72a908f851a3cf2baf7de90cecf35ec
-E
-querydsl/build.gradle,7\e\7eed955b41a4ca45ff6e45fd69fbfa46810b7396
-<<<<<<< HEAD
 _
 /src/main/java/study/querydsl/dto/MemberDto.java,0\5\0536720364719f74a7ebc394d660774256da4d16
+]
+-src/main/java/study/querydsl/dto/UserDto.java,0\5\0504a9d3e72a908f851a3cf2baf7de90cecf35ec
 p
 @querydsl/src/main/java/study/querydsl/controller/InitMember.java,b\c\bca54a917955312b69027ef3daf694c88032bf74
 n
@@ -23,11 +18,3 @@ e
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-=======
-l
-<querydsl/src/test/java/study/querydsl/QuerydslBasicTest.java,b\1\b14829a235b8d390a91d78e63dc0596492f61bd3
-h
-8querydsl/src/main/java/study/querydsl/entity/Member.java,5\b\5b2c254095a76fba93340039185dafab022d408b
-f
-6querydsl/src/main/java/study/querydsl/entity/Team.java,4\8\4885dfe9b6e79c189da974bf273601c9b5513f2a
->>>>>>> 9bfa3cbce10537512e97c3089b769d467d8a64a3
