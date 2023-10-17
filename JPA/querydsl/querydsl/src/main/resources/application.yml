@@ -5,7 +5,7 @@ spring:
     active: local
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/querydsl?allowPublicKeyRetrieval=true
+    url: jdbc:mysql://localhost:3306/jpabasic?allowPublicKeyRetrieval=true
     username: root
     password: '!zxa753951'
 

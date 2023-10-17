@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2"
+             xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+
+    <!--  JPA 유닛 이름 보통 DB당 하나-->
+    <persistence-unit name="jpabasic">
+        <!--        <class>jpabook.shop.domain.entity.Item</class>-->
+        <!--        <class>jpabook.shop.domain.entity.Member</class>-->
+        <!--        <class>jpabook.shop.domain.entity.Order</class>-->
+        <!--        <class>jpabook.shop.domain.entity.OrderItem</class>-->
+        <properties>
+            <!-- 필수 속성 -->
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="test!2"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/jpa_shop?serverTimezone=Asia/Seoul&amp;useSSL=false"/>
+
+            <!--  데이터베이스 방언??-->
+            <!--  DB마다 문법과 함수가 다르며 JPA는 어느 특정 DB에도 종속되어 있지 않음.-->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+
+            <!-- 옵션 -->
+            <!-- 쿼리 출력 -->
+            <property name="hibernate.show_sql" value="true"/>
+            <!-- 쿼리 포맷 정렬 -->
+            <property name="hibernate.format_sql" value="true"/>
+            <!-- 쿼리 주석 출력 -->
+            <property name="hibernate.use_sql_comments" value="true"/>
+
+            <!-- 아래 value 만큼 모아서 처리-->
+            <property name="hibernate.jdbc.batch_size"  value="10"/>
+
+            <!-- 스키마 자동 생성 속성-->
+            <property name="hibernate.hbm2ddl.auto" value="create" />
+        </properties>
+    </persistence-unit>
+</persistence>
