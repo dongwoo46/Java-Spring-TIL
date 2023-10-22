@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2fbbd869-ae60-46eb-b1e8-82d90655e80b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../스프링 데이터 jpa/data-jpa/data-jpa/src/main/java/study/datajpa/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../스프링 데이터 jpa/data-jpa/data-jpa/src/main/java/study/datajpa/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../스프링 데이터 jpa/data-jpa/data-jpa/src/main/java/study/datajpa/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../스프링 데이터 jpa/data-jpa/data-jpa/src/main/java/study/datajpa/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../self_study/jpabasic/src/main/java/jpabasic/jpabasic/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../self_study/jpabasic/src/main/resources/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpashop1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpashop1/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop1/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpashop1/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop1/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpashop1/src/main/java/jpabook/jpashop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jpashop1/src/main/java/jpabook/jpashop/domain/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../querydsl/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../querydsl/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../querydsl/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../querydsl/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../querydsl/querydsl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../querydsl/querydsl/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../스프링 데이터 jpa/data-jpa/data-jpa/src/main/java/study/datajpa/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../스프링 데이터 jpa/data-jpa/data-jpa/src/main/java/study/datajpa/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +18,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2Wga0ILlKO94pBdXHAYC9rFS0dS" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -39,6 +35,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -51,6 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697156452559</updated>
       <workItem from="1697156453786" duration="24000" />
+      <workItem from="1697954684593" duration="758000" />
     </task>
     <servers />
   </component>

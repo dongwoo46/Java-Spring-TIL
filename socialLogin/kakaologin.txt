@@ -1,0 +1,11 @@
+client-id : f721a08eeda2b3644750bfb2aa4adacb
+인증 토큰 발급 주소 : https://kauth.kakao.com/oauth/authorize?response_type=code&client_id=f721a08eeda2b3644750bfb2aa4adacb&redirect_uri=http://localhost:8080/oauth2/callback/kakao
+
+
+access 토큰 발급 요청 주소 (post) - body에 4개 담기
+https://kauth.kakao.com/oauth/token
+Content-type: application/x-www-form-urlencoded;charset=utf-8
+grant_type : authorization_code
+client_id : f721a08eeda2b3644750bfb2aa4adacb
+redirect_uri : http://localhost:8080/oauth2/callback/kakao
+code : {code}
