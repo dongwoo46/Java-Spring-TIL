@@ -1,0 +1,17 @@
+
+q
+java:S1488$"[Immediately return this expression instead of assigning it to the temporary variable "all".(şÄø
+t
+java:S1488."^Immediately return this expression instead of assigning it to the temporary variable "result".(ÑêÜ²
+t
+java:S14887"^Immediately return this expression instead of assigning it to the temporary variable "result".(ÑêÜ²
+A
+java:S1068E"+Remove this unused "orderId" private field.(¬‹çº
+>
+java:S1068F"(Remove this unused "name" private field.(Ë¥¼
+B
+java:S1068G"-Remove this unused "orderDate" private field.(ËŸ¶j
+E
+java:S1068H"/Remove this unused "orderStatus" private field.(ÏÁ¬â
+F
+java:S1068I"+Remove this unused "address" private field.(ßÍ˜²ıÿÿÿÿ

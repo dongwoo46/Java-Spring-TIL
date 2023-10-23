@@ -1,25 +1,87 @@
 
-j
-java:S1192)"HDefine a constant instead of duplicating this literal "member1" 9 times.(âÒûÿÿÿÿ8¥Ëä†¦1
-Ÿ
-java:S1186ƒ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—íû8²Ëä†¦1
-U
-java:S1854v"9Remove this useless assignment to local variable "total".(è±á8µËä†¦1
-X
-java:S1854t";Remove this useless assignment to local variable "content".(ÍİûÖ8µËä†¦1
-`
-java:S1854l">Remove this useless assignment to local variable "fetchFirst".(ŸÂÄáùÿÿÿÿ8µËä†¦1
+m
+java:S1192ã"JDefine a constant instead of duplicating this literal "memberSub" 6 times.(ºº¿£úÿÿÿÿ8€ÄÛš©1
+p
+java:S1192"MDefine a constant instead of duplicating this literal "memberDto = " 5 times.(”ì¥Åùÿÿÿÿ8ÄÛš©1
+c
+java:S11924"FDefine a constant instead of duplicating this literal "teamA" 7 times.(é½Ò8ÄÛš©1
+h
+java:S11925"FDefine a constant instead of duplicating this literal "teamB" 5 times.(£ç¡®ıÿÿÿÿ8ÄÛš©1
+k
+java:S11929"IDefine a constant instead of duplicating this literal "member1" 15 times.(âÒûÿÿÿÿ8¥Ëä†¦1
+g
+java:S1192£"IDefine a constant instead of duplicating this literal "tuple = " 4 times.(ÜùÆ†8ÄÛš©1
+k
+java:S1192K"IDefine a constant instead of duplicating this literal "username" 3 times.(û¶Âúÿÿÿÿ8ÄÛš©1
+V
+java:S1854†"9Remove this useless assignment to local variable "total".(è±á8µËä†¦1
 Y
-java:S1854h"<Remove this useless assignment to local variable "fetchOne".(Ûë‘ş8µËä†¦1
+java:S1854„";Remove this useless assignment to local variable "content".(ÍİûÖ8µËä†¦1
+`
+java:S1854|">Remove this useless assignment to local variable "fetchFirst".(ŸÂÄáùÿÿÿÿ8µËä†¦1
+Y
+java:S1854x"<Remove this useless assignment to local variable "fetchOne".(Ûë‘ş8µËä†¦1
 [
-java:S1854d"9Remove this useless assignment to local variable "fetch".(„—×‚úÿÿÿÿ8µËä†¦1
+java:S1854t"9Remove this useless assignment to local variable "fetch".(„—×‚úÿÿÿÿ8µËä†¦1
 L
-java:S1481d"*Remove this unused "fetch" local variable.(„—×‚úÿÿÿÿ8µËä†¦1
+java:S1481t"*Remove this unused "fetch" local variable.(„—×‚úÿÿÿÿ8µËä†¦1
 J
-java:S1481h"-Remove this unused "fetchOne" local variable.(Ûë‘ş8µËä†¦1
+java:S1481x"-Remove this unused "fetchOne" local variable.(Ûë‘ş8µËä†¦1
 Q
-java:S1481l"/Remove this unused "fetchFirst" local variable.(ŸÂÄáùÿÿÿÿ8µËä†¦1
+java:S1481|"/Remove this unused "fetchFirst" local variable.(ŸÂÄáùÿÿÿÿ8µËä†¦1
+J
+java:S1481„",Remove this unused "content" local variable.(ÍİûÖ8µËä†¦1
+G
+java:S1481†"*Remove this unused "total" local variable.(è±á8µËä†¦1
+p	java:S100…"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø³•ÿøÿÿÿÿ8ÃÅÛš©1
+p	java:S100›"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍõõÚûÿÿÿÿ8ÃÅÛš©1
+V	java:S106£"9Replace this use of System.out or System.err by a logger.(ÜùÆ†8ÎÅÛš©1
+k	java:S100®"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò¥’ô8ÎÅÛš©1
+V	java:S106º"9Replace this use of System.out or System.err by a logger.(ÜùÆ†8ÎÅÛš©1
+V	java:S106«"9Replace this use of System.out or System.err by a logger.(ÜùÆ†8æÅÛš©1
+V	java:S106¼"9Replace this use of System.out or System.err by a logger.(õšÌú8æÅÛš©1
+V	java:S106Ë"9Replace this use of System.out or System.err by a logger.(õšÌú8æÅÛš©1
+V	java:S106Ø"9Replace this use of System.out or System.err by a logger.(ÜùÆ†8îÅÛš©1
+^	java:S125Ş"<This block of commented-out lines of code should be removed.(ö²¸ğúÿÿÿÿ8îÅÛš©1
+V	java:S106ç"9Replace this use of System.out or System.err by a logger.(õšÌú8îÅÛš©1
+V	java:S106ó"9Replace this use of System.out or System.err by a logger.(õšÌú8îÅÛš©1
+V	java:S106‚"9Replace this use of System.out or System.err by a logger.(®İÂÅ8îÅÛš©1
+V	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(ğ“8îÅÛš©1
+[	java:S106"9Replace this use of System.out or System.err by a logger.(”ì¥Åùÿÿÿÿ8îÅÛš©1
+[	java:S106›"9Replace this use of System.out or System.err by a logger.(”ì¥Åùÿÿÿÿ8îÅÛš©1
+[	java:S106¨"9Replace this use of System.out or System.err by a logger.(”ì¥Åùÿÿÿÿ8îÅÛš©1
+[	java:S106´"9Replace this use of System.out or System.err by a logger.(”ì¥Åùÿÿÿÿ8îÅÛš©1
+^
+java:S1854º";Remove this useless assignment to local variable "qMember".(‹·šÿÿÿÿÿ8îÅÛš©1
+O
+java:S1481º",Remove this unused "qMember" local variable.(‹·šÿÿÿÿÿ8îÅÛš©1
+V	java:S106Å"9Replace this use of System.out or System.err by a logger.(£¥ô¸8îÅÛš©1
+V	java:S106Ú"9Replace this use of System.out or System.err by a logger.(£¥ô¸8ÿÅÛš©1
+[	java:S106æ"9Replace this use of System.out or System.err by a logger.(”ì¥Åùÿÿÿÿ8ÿÅÛš©1
+X
+java:S1854ì":Remove this useless assignment to local variable "result".(Ç áª8ÿÅÛš©1
 I
-java:S1481t",Remove this unused "content" local variable.(ÍİûÖ8µËä†¦1
-F
-java:S1481v"*Remove this unused "total" local variable.(è±á8µËä†¦1
+java:S1481ì"+Remove this unused "result" local variable.(Ç áª8ÿÅÛš©1
+k	java:S100ô"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´õöÜ8ÿÅÛš©1
+p	java:S100’"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õËÏ½úÿÿÿÿ8†ÆÛš©1
+]
+java:S1854Ä":Remove this useless assignment to local variable "result".(Œç¦¤ùÿÿÿÿ8ÆÛš©1
+\
+java:S1854¶"9Remove this useless assignment to local variable "count".(òê¢íÿÿÿÿÿ8ÆÛš©1
+M
+java:S1481¶"*Remove this unused "count" local variable.(òê¢íÿÿÿÿÿ8ÆÛš©1
+N
+java:S1481Ä"+Remove this unused "result" local variable.(Œç¦¤ùÿÿÿÿ8ÆÛš©1
+\
+java:S1854Ì"9Remove this useless assignment to local variable "count".(òê¢íÿÿÿÿÿ8–ÆÛš©1
+M
+java:S1481Ì"*Remove this unused "count" local variable.(òê¢íÿÿÿÿÿ8–ÆÛš©1
+]
+java:S1854Ô":Remove this useless assignment to local variable "delete".(´ÿ¡Çùÿÿÿÿ8–ÆÛš©1
+N
+java:S1481Ô"+Remove this unused "delete" local variable.(´ÿ¡Çùÿÿÿÿ8–ÆÛš©1
+V	java:S106ä"9Replace this use of System.out or System.err by a logger.(õšÌú8–ÆÛš©1
+P
+java:S1144™"2Remove this unused private "searchMember2" method.(Ü§Àİ8–ÆÛš©1
+M
+java:S1144©"*Remove this unused private "allEq" method.(âÊ¢‡üÿÿÿÿ8–ÆÛš©1

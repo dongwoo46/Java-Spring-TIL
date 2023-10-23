@@ -1,5 +1,25 @@
 
-a
-1jpashop/src/main/resources/application.properties,d\3\d31fa7ac9a42aeac917728a21a842169ccb9e9d5
+o
+?jpashop/src/main/java/jpabook/jpashop/service/OrderService.java,f\9\f99b9b5e42ade8a3133e6dea25c437f31706dcf0
+p
+@jpashop/src/main/java/jpabook/jpashop/service/MemberService.java,7\2\724e36b6dbe69d5c2781182d27a9a42ec94eb034
+w
+Gjpashop/src/main/java/jpabook/jpashop/api/OrderSimpleApiController.java,2\2\2235d303ae21900521dbfdd574d33565376c0f98
+ƒ
+Sjpashop/src/main/java/jpabook/jpashop/domain/exception/NotEnoughStockException.java,2\b\2b77189aebe1256305d1cd8cbb0fb5bdbce4e89f
+r
+Bjpashop/src/main/java/jpabook/jpashop/api/MemberApiController.java,e\f\ef51dbba231356842275bc6a8430ec3231d494c7
+n
+>jpashop/src/main/java/jpabook/jpashop/service/ItemService.java,6\8\68d39540da557f43f800070e29d7ca28fd6260a6
+q
+Ajpashop/src/main/java/jpabook/jpashop/api/OrderApiController.java,5\e\5e7298a8da39c217d34cadf9813c5be2b66d5ddb
+p
+@jpashop/src/main/java/jpabook/jpashop/service/UpdateItemDTO.java,9\d\9d2f8903fc12a06022083eea53b245c5286eb8b1
+i
+9jpashop/src/main/java/jpabook/jpashop/domain/Address.java,4\6\4689d38fb98ac50200aa67aab3ade0578f1a636c
 D
 jpashop/build.gradle,e\1\e103c27c9509a225459bbb397a05f29dd3c1b31e
+’
+bjpashop/src/main/java/jpabook/jpashop/repository/order/simplequery/OrderSimpleQueryRepository.java,a\b\abfacb8372db358ec77138b7a5556fbc4a186980
+a
+1jpashop/src/main/resources/application.properties,d\3\d31fa7ac9a42aeac917728a21a842169ccb9e9d5

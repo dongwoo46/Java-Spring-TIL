@@ -1,0 +1,24 @@
+
+y
+java:S1488@"^Immediately return this expression instead of assigning it to the temporary variable "result".(Ñÿ÷¦üÿÿÿÿ
+y
+java:S1488L"^Immediately return this expression instead of assigning it to the temporary variable "result".(Ñÿ÷¦üÿÿÿÿ
+h	java:S100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡·ÎÛùÿÿÿÿ
+A
+java:S1068n"+Remove this unused "orderId" private field.(¬‹çº
+>
+java:S1068o"(Remove this unused "name" private field.(Ë¥¼
+H
+java:S1068p"-Remove this unused "orderDate" private field.(½Ë¬­şÿÿÿÿ
+E
+java:S1068q"/Remove this unused "orderStatus" private field.(ÏÁ¬â
+F
+java:S1068r"+Remove this unused "address" private field.(ßÍ˜²ıÿÿÿÿ
+I
+java:S1068s".Remove this unused "orderItems" private field.(°Ùé«şÿÿÿÿ
+B
+java:S1068„",Remove this unused "itemName" private field.(„¸‰'
+J
+java:S1068…".Remove this unused "orderPrice" private field.(ÈĞšøÿÿÿÿ
+E
+java:S1068†")Remove this unused "count" private field.(Êâş¶úÿÿÿÿ

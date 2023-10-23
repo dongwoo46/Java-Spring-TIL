@@ -3,6 +3,7 @@ z
 Jjpashop/jpashop/src/main/java/jpabook/jpashop/api/MemberApiController.java,9\b\9b149035a6b267e1791efd227fc488f2b326b0d0
 y
 Ijpashop/jpashop/src/main/java/jpabook/jpashop/api/OrderApiController.java,f\b\fb479ecb33be1ef1a9b13ab145390118e90e53ae
+<<<<<<< HEAD
 t
 Djpashop/jpashop/src/main/java/jpabook/jpashop/domain/item/Album.java,b\9\b9c7dcae3347f8fcd509218e0c465f5c310ae0ca
 s
@@ -25,3 +26,9 @@ r
 Bjpashop/jpashop/src/main/java/jpabook/jpashop/domain/Category.java,9\9\99def6d00ea133ed5cd9c5beb87cd8fab3224145
 q
 Ajpashop/jpashop/src/main/java/jpabook/jpashop/domain/Address.java,f\e\fe2d215318b9cafb0b0f514fefe5b82851adb1d2
+=======
+i
+9jpashop/jpashop/src/main/resources/application.properties,c\0\c070b87959936ead87dfb4c9f0897f234dce3451
+u
+Ejpashop/jpashop/src/main/java/jpabook/jpashop/JpashopApplication.java,7\4\7489ba503b34daae435754e2d4e1a09fdcf1e222
+>>>>>>> 3fcc10071eb591424721fe114add3e00632bd398

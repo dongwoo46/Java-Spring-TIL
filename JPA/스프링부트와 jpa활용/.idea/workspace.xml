@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="2fbbd869-ae60-46eb-b1e8-82d90655e80b" name="Changes" comment="" />
+=======
+    <list default="true" id="2fbbd869-ae60-46eb-b1e8-82d90655e80b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> 3fcc10071eb591424721fe114add3e00632bd398
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+>>>>>>> 3fcc10071eb591424721fe114add3e00632bd398
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -43,7 +58,11 @@
       <option name="presentableId" value="Default" />
       <updated>1697156452559</updated>
       <workItem from="1697156453786" duration="24000" />
+<<<<<<< HEAD
       <workItem from="1697594239455" duration="375000" />
+=======
+      <workItem from="1697954684593" duration="758000" />
+>>>>>>> 3fcc10071eb591424721fe114add3e00632bd398
     </task>
     <servers />
   </component>
