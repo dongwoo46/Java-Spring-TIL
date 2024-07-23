@@ -1,17 +1,23 @@
+#spring.application.name=TestSecurity
+
 
 
 spring:
+  mustache:
+    servlet:
+      expose-request-attributes: true
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/spring?allowPublicKeyRetrieval=true
     username: root
     password: '1234'
-
+  jwt:
+    secret: vmfhaltmskdlstkfkdgodyroqkfwkdbalroqkfwkdbalaaaaaaaaaaaaaaaabbbbbPLAINTEXT
 
   jpa:
     open-in-view: true
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     #    show-sql: true
     properties:
       hibernate.format_sql: true
@@ -30,6 +36,11 @@ logging:
   level:
     org.hibernate.SQL: debug
 #    org.hibernate.type: trace
+
+
 server:
   address: localhost
   port: 8080
+  servlet:
+    session:
+      timeout: 90m
