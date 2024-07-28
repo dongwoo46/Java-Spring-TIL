@@ -1,0 +1,68 @@
+#spring.application.name=TestSecurity
+
+
+
+spring:
+  mustache:
+    servlet:
+      expose-request-attributes: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring?allowPublicKeyRetrieval=true
+    username: root
+    password: '1234'
+  jwt:
+    secret: vmfhaltmskdlstkfkdgodyroqkfwkdbalroqkfwkdbalaaaaaaaaaaaaaaaabbbbbPLAINTEXT
+
+  jpa:
+    open-in-view: true
+    hibernate:
+      ddl-auto: update
+    #    show-sql: true
+    properties:
+      hibernate.format_sql: true
+      hibernate:
+        default_batch_fetch_size: 100
+        dialect: org.hibernate.dialect.MySQLDialect # ??? MySQL dialect ??
+    database: mysql
+    # database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+  data:
+    web:
+      pageable:
+        default-page-size: 10
+        max-page-size: 2000
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+#    org.hibernate.type: trace
+
+
+server:
+  address: localhost
+  port: 8080
+  servlet:
+    session:
+      timeout: 90m
+
+management:
+  server:
+    port: 8080
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  info:
+    java:
+      enabled: true
+    os:
+      enabled: true
+    env:
+      enabled: true
+info:
+  app:
+    name: hello-actuator
+    company: yh
