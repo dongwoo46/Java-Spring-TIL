@@ -3,6 +3,7 @@ package com.codersee.springcoroutines.controller
 import com.codersee.springcoroutines.dto.UserRequest
 import com.codersee.springcoroutines.dto.UserResponse
 import com.codersee.springcoroutines.model.User
+import com.codersee.springcoroutines.service.UserApiService
 import com.codersee.springcoroutines.service.UserService
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
@@ -13,7 +14,8 @@ import org.springframework.web.server.ResponseStatusException
 @RestController
 @RequestMapping("/api/users")
 class UserController(
-        private val userService: UserService
+        private val userService: UserService,
+        private val userApiService: UserApiService
 ) {
 
     @PostMapping
@@ -45,6 +47,34 @@ class UserController(
     suspend fun deleteById(@PathVariable id:Long) {
         userService.findById(id)
     }
+
+    @GetMapping("/webclient")
+    suspend fun findAllUsers() =
+            userApiService.findAllUsers()
+
+    @GetMapping("/webclient/flow")
+    suspend fun findAllFlowUsers() =
+            userApiService.findAllUsersFlow()
+
+    @GetMapping("/webclient/exchange")
+    suspend fun findAllExchangeUsers() =
+            userApiService.findAllUsersUsingExchange()
+
+    @DeleteMapping("/webclient/{id}")
+    suspend fun deleteUserById(@PathVariable id:Long) =
+            userApiService.deleteUserById(id)
+
+    @DeleteMapping("/webclient/responseEntity/{id}")
+    suspend fun deleteUserByIdReponseEntity(@PathVariable id:Long) =
+            userApiService.deleteUserByIdResponseEntity(id)
+
+    @GetMapping("/webclient/{id}")
+    suspend fun findUserById(@PathVariable id:Long) =
+            userApiService.findUserById(id)
+
+    @GetMapping("/webclient/throwException/{id}")
+    suspend fun findUserByIdThrowException(@PathVariable id:Long) =
+            userApiService.findUserByIdNotFoundHandling(id)
 }
 
 private fun UserRequest.toModel(): User =
